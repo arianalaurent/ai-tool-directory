@@ -1840,5 +1840,84 @@
    "source": null,
    "rank": 5
   }
+ ],
+ "deals": [
+  {
+   "tool": "gemini",
+   "title": "12 months of Google AI free for college students",
+   "deal": "US: 1 year of Google AI Pro free (valued at $19.99/mo). Outside US: 1 year of Google AI Plus free.",
+   "eligibility": "Eligible higher-ed students 18+, verified via SheerID; payment method required, auto-renews unless cancelled.",
+   "expires": "Redeem by Dec 31, 2026",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/",
+   "source": "https://one.google.com/offer/studentoffer8",
+   "checked": "2026-10-25",
+   "affiliate": false
+  },
+  {
+   "tool": "perplexity",
+   "title": "Perplexity Pro for students",
+   "deal": "Pro for $10/mo for verified students.",
+   "eligibility": "Verified students (and educators per third-party summary; see site).",
+   "expires": null,
+   "url": "https://www.perplexity.ai/students",
+   "source": "https://www.perplexity.ai/students",
+   "checked": "2026-10-25",
+   "affiliate": false
+  },
+  {
+   "tool": "notionai",
+   "title": "Notion for Startups",
+   "deal": "Up to 6 months free on the Business plan with Notion AI included (3 or 1 months depending on eligibility).",
+   "eligibility": "Non-paying Notion customers, <100 employees, work email; 6 months requires a partner affiliation.",
+   "expires": null,
+   "url": "https://www.notion.com/startups",
+   "source": "https://www.notion.com/startups",
+   "checked": "2026-10-25",
+   "affiliate": false
+  },
+  {
+   "tool": "figma",
+   "title": "Figma for Education",
+   "deal": "Free access to Figma Professional tier, incl. Figma's AI toolkit, for verified students and educators.",
+   "eligibility": "Students/educators 13+ in a structured classroom (incl. bootcamps, online courses).",
+   "expires": null,
+   "url": "https://www.figma.com/education/",
+   "source": "https://www.figma.com/education/",
+   "checked": "2026-10-25",
+   "affiliate": false
+  },
+  {
+   "tool": "canvamagic",
+   "title": "Canva Education (K-12)",
+   "deal": "100% free Pro and premium features for K-12 teachers and students.",
+   "eligibility": "K-12 teachers and invited students; university students via Canva for Campus if their school has it.",
+   "expires": null,
+   "url": "https://www.canva.com/education/students/",
+   "source": "https://www.canva.com/education/students/",
+   "checked": "2026-10-25",
+   "affiliate": false
+  },
+  {
+   "tool": "copilot",
+   "title": "Free Copilot Pro for teachers & OSS maintainers",
+   "deal": "Copilot Pro free for verified teachers and maintainers of popular open-source repos.",
+   "eligibility": "Verified GitHub Education teachers or eligible OSS maintainers; re-checked monthly.",
+   "expires": null,
+   "url": "https://docs.github.com/en/copilot/how-tos/manage-your-account/get-free-access-to-copilot-pro",
+   "source": "https://docs.github.com/en/copilot/how-tos/manage-your-account/get-free-access-to-copilot-pro",
+   "checked": "2026-10-25",
+   "affiliate": false
+  },
+  {
+   "tool": "copilot",
+   "title": "GitHub Copilot Free",
+   "deal": "A free Copilot plan with a limited experience, no payment needed.",
+   "eligibility": "Anyone with a GitHub account.",
+   "expires": null,
+   "url": "https://github.com/features/copilot",
+   "source": "https://docs.github.com/en/copilot/how-tos/manage-your-account/get-free-access-to-copilot-pro",
+   "checked": "2026-10-25",
+   "affiliate": false
+  }
  ]
 }
