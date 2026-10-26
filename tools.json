@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-25",
- "note": "Ratings are editorial. 'New this week' entries are seed placeholders until the X scanner agent populates released/source.",
+ "updated": "2026-10-26",
+ "note": "Ratings are editorial. New Releases are verified against the maker's own X post (linked as source); new entries stay unrated until reviewed.",
  "categories": [
   {
    "id": "video",
@@ -405,7 +405,7 @@
    ],
    "skip": "People who prefer GUIs",
    "rating": 8.5,
-   "isNew": true,
+   "isNew": false,
    "released": null,
    "source": null,
    "rank": 3
@@ -625,7 +625,7 @@
    ],
    "skip": "Non-developers",
    "rating": 7.5,
-   "isNew": true,
+   "isNew": false,
    "released": null,
    "source": null,
    "rank": 6
@@ -1021,7 +1021,7 @@
    ],
    "skip": "Pro engine devs",
    "rating": 7.5,
-   "isNew": true,
+   "isNew": false,
    "released": null,
    "source": null,
    "rank": 4
@@ -1043,7 +1043,7 @@
    ],
    "skip": "AAA pipelines",
    "rating": 7.5,
-   "isNew": true,
+   "isNew": false,
    "released": null,
    "source": null,
    "rank": 5
@@ -1351,7 +1351,7 @@
    ],
    "skip": "Those needing recordings",
    "rating": 8.0,
-   "isNew": true,
+   "isNew": false,
    "released": null,
    "source": null,
    "rank": 3
@@ -1813,7 +1813,7 @@
    ],
    "skip": "Those avoiding self-hosting",
    "rating": 8.0,
-   "isNew": true,
+   "isNew": false,
    "released": null,
    "source": null,
    "rank": 5
@@ -1839,6 +1839,98 @@
    "released": null,
    "source": null,
    "rank": 5
+  },
+  {
+   "id": "canvacraft",
+   "name": "Canva Craft",
+   "category": "images",
+   "url": "https://www.canva.com/newsroom/news/canva-craft/",
+   "bestFor": "Design-focused image generation inside Canva",
+   "freeTier": null,
+   "pricing": "See site for current pricing",
+   "blurb": "Canva's first in-house image model, built for design. Launched Oct 22, 2026.",
+   "why": "Canva announced Craft as its first frontier image model built specifically for design and said it is available to everyone. Canva says it is also available through its Public API and the Canva MCP server.",
+   "features": [
+    "Image generation tuned for design work",
+    "Available in Canva via Dream Lab",
+    "Also offered through Canva's Public API and MCP server (per Canva)"
+   ],
+   "skip": "Anyone who doesn't work in Canva or needs a standalone image app",
+   "rating": null,
+   "isNew": true,
+   "released": "2026-10-22",
+   "source": "https://x.com/canva/status/2113348707223753165",
+   "worthRanking": true,
+   "rank": 7
+  },
+  {
+   "id": "kimik31pro",
+   "name": "Kimi K3.1 Pro",
+   "category": "chatbots",
+   "url": "https://www.kimi.com/",
+   "bestFor": "Long-context reasoning and full-project coding",
+   "freeTier": null,
+   "pricing": "See site for current pricing",
+   "blurb": "Moonshot AI's flagship open-weight model with a 1M-token context. Launched Oct 23, 2026.",
+   "why": "Moonshot AI describes K3.1 Pro as its most capable 3T-class open-weight model: 1M-token context, 2.8T total / 104B active parameters (mixture of experts), multimodal, with a focus on full-project coding and 3D modeling in Blender and CAD.",
+   "features": [
+    "1M-token context window",
+    "Multimodal input",
+    "Coding across Unreal, Unity and Godot projects (per Moonshot)"
+   ],
+   "skip": "Anyone who just needs quick everyday chat answers",
+   "rating": null,
+   "isNew": true,
+   "released": "2026-10-23",
+   "source": "https://x.com/Kimi_Moonshot/status/2113680701770068067",
+   "worthRanking": true,
+   "rank": 6
+  },
+  {
+   "id": "lingsante",
+   "name": "Ling-3.0-flash-Sante",
+   "category": "opensource",
+   "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash-Sante",
+   "bestFor": "Open-source healthcare research and medical reasoning",
+   "freeTier": true,
+   "pricing": "Open weights (MIT license on Hugging Face)",
+   "blurb": "Ant Ling's open-source healthcare model. Weights released Oct 22, 2026.",
+   "why": "Ant Ling open-sourced Sante, a healthcare-enhanced mixture-of-experts model with 124B total and 5.1B active parameters per token, built for medical reasoning, deep research, multi-agent work and tool use.",
+   "features": [
+    "124B total / 5.1B active parameters",
+    "Open weights on Hugging Face",
+    "Built for medical research workflows and tool use"
+   ],
+   "skip": "Anyone without the hardware or hosting to run large open models, and anyone seeking medical advice for themselves",
+   "rating": null,
+   "isNew": true,
+   "released": "2026-10-22",
+   "source": "https://x.com/AntLingAGI/status/2113293431435149349",
+   "worthRanking": false,
+   "rank": 6
+  },
+  {
+   "id": "silviamcp",
+   "name": "Silvia MCP",
+   "category": "agents",
+   "url": "https://www.cfosilvia.com/",
+   "bestFor": "Giving AI agents your live personal finance context",
+   "freeTier": true,
+   "pricing": "Free to start, per Silvia; see site for plans",
+   "blurb": "Silvia's 'AI CFO' as an MCP server for your existing agents. Launched Oct 26, 2026.",
+   "why": "Silvia announced an MCP server that brings your live financial context and its personal finance model into the tools and agents you already use, available to all agents.",
+   "features": [
+    "MCP server for existing AI agents",
+    "Live financial account context",
+    "Personal finance model"
+   ],
+   "skip": "Anyone who doesn't want to connect financial accounts to an AI tool",
+   "rating": null,
+   "isNew": true,
+   "released": "2026-10-26",
+   "source": "https://x.com/cfosilvia/status/2114718747311141283",
+   "worthRanking": false,
+   "rank": 7
   }
  ],
  "deals": [

@@ -1,0 +1,155 @@
+# AI Tool Rank
+
+> A directory that recommends AI tools by use case, with editorial ratings, verified new releases and verified deals. Last updated 2026-10-26.
+
+Ratings are editorial opinions, not benchmarks. Pricing changes often; the directory does not list prices it hasn't confirmed, so check each official site. New releases are only added after checking the maker's own launch post, which is linked as the source.
+
+## Pages
+- [New releases](https://aitooldirectory-beta.vercel.app/new.html): newest verified AI tool launches with dates and source posts
+- [Deals](https://aitooldirectory-beta.vercel.app/deals.html): verified student, startup and free-tier offers
+- [Compare](https://aitooldirectory-beta.vercel.app/compare.html): side-by-side tool comparison
+- [Methodology](https://aitooldirectory-beta.vercel.app/methodology.html): how tools are rated
+
+## Video
+Text-to-video, AI editing and auto-captions. Full ranking: https://aitooldirectory-beta.vercel.app/category/video.html
+
+- #1 [Runway](https://runwayml.com): best for cinematic ai video generation. Leading generative video suite used by creators and studios. (rated 8.5/10, free option offered)
+- #2 [Descript](https://www.descript.com): best for editing video by editing text. Edit video and podcasts like a doc. (rated 8.5/10, free option offered)
+- #3 [Luma Dream Machine](https://lumalabs.ai): best for realistic motion from prompts. Luma's generative video model and app. (rated 8.0/10, free option offered)
+- #4 [Pika](https://pika.art): best for quick, playful video clips. Fast, social-friendly AI video generation. (rated 7.5/10, free option offered)
+- #5 [Captions](https://www.captions.ai): best for auto-captioned talking-head videos. Mobile-first AI captions and editing for creators. (rated 7.5/10, free option offered)
+- #6 [HeyGen](https://www.heygen.com): best for ai avatar presenter videos. Avatar and video translation platform. (rated 7.5/10, free option offered)
+
+## Images
+Image generation, upscaling and editing. Full ranking: https://aitooldirectory-beta.vercel.app/category/images.html
+
+- #1 [Midjourney](https://www.midjourney.com): best for highest-aesthetic image generation. Renowned for stylized, high-quality images. (rated 9.0/10, primarily paid)
+- #2 [Ideogram](https://ideogram.ai): best for images with readable text. Excels at typography inside images. (rated 8.0/10, free option offered)
+- #3 [Leonardo.Ai](https://leonardo.ai): best for game-style assets and art. Image platform popular with game artists. (rated 8.0/10, free option offered)
+- #4 [remove.bg](https://www.remove.bg): best for one-click background removal. Does one job extremely well. (rated 8.0/10, free option offered)
+- #5 [Krea](https://www.krea.ai): best for real-time generation & upscaling. Real-time canvas plus enhancer tools. (rated 7.5/10, free option offered)
+- #6 [Adobe Firefly](https://firefly.adobe.com): best for commercially-minded generation in adobe workflows. Adobe's generative models, integrated with Creative Cloud. (rated 7.5/10, free option offered)
+- #7 [Canva Craft](https://www.canva.com/newsroom/news/canva-craft/): best for design-focused image generation inside canva. Canva's first in-house image model, built for design. Launched Oct 22, 2026. (not yet rated, free option not confirmed, released 2026-10-22 ([launch post](https://x.com/canva/status/2113348707223753165)))
+
+## Coding & Vibe Coding
+AI code editors, app builders and coding agents. Full ranking: https://aitooldirectory-beta.vercel.app/category/coding.html
+
+- #1 [Cursor](https://cursor.com): best for ai-first code editor. VS Code-style editor built around AI agents. (rated 9.0/10, free option offered)
+- #2 [GitHub Copilot](https://github.com/features/copilot): best for ai pair programming in your ide. GitHub's assistant across popular IDEs. (rated 8.5/10, free option offered)
+- #3 [Claude Code](https://www.anthropic.com/claude-code): best for agentic coding in the terminal. Anthropic's terminal-based coding agent. (rated 8.5/10, primarily paid)
+- #4 [Replit](https://replit.com): best for building and deploying apps from a prompt. Browser IDE with an AI agent and hosting. (rated 8.0/10, free option offered)
+- #5 [Lovable](https://lovable.dev): best for vibe-coding full web apps. Prompt-to-app builder for web apps. (rated 8.0/10, free option offered)
+- #6 [v0](https://v0.dev): best for react/ui generation. Vercel's generative UI and app builder. (rated 8.0/10, free option offered)
+- #7 [Bolt.new](https://bolt.new): best for in-browser full-stack prototypes. StackBlitz's AI app builder in the browser. (rated 7.5/10, free option offered)
+
+## AI Agents
+Agent builders, browser agents and automation. Full ranking: https://aitooldirectory-beta.vercel.app/category/agents.html
+
+- #1 [n8n](https://n8n.io): best for self-hostable ai workflow automation. Fair-code workflow tool with AI agent nodes. (rated 8.5/10, free option offered)
+- #2 [Zapier](https://zapier.com): best for connecting thousands of apps. The automation giant, now with AI agents. (rated 8.0/10, free option offered)
+- #3 [LangChain](https://www.langchain.com): best for developers building custom agents. Popular open-source framework for LLM apps and agents. (rated 8.0/10, free option offered)
+- #4 [Make](https://www.make.com): best for visual automation scenarios. Visual automation builder with AI modules. (rated 8.0/10, free option offered)
+- #5 [CrewAI](https://www.crewai.com): best for multi-agent teams in python. Framework for orchestrating role-based agents. (rated 7.5/10, free option offered)
+- #6 [Browser Use](https://browser-use.com): best for letting ai control a browser. Open-source library for browser-driving agents. (rated 7.5/10, free option offered)
+- #7 [Silvia MCP](https://www.cfosilvia.com/): best for giving ai agents your live personal finance context. Silvia's 'AI CFO' as an MCP server for your existing agents. Launched Oct 26, 2026. (not yet rated, free option offered, released 2026-10-26 ([launch post](https://x.com/cfosilvia/status/2114718747311141283)))
+
+## Writing
+Drafting, rewriting and editing with AI. Full ranking: https://aitooldirectory-beta.vercel.app/category/writing.html
+
+- #1 [Grammarly](https://www.grammarly.com): best for polishing everyday writing. Writing assistant across apps and browsers. (rated 8.0/10, free option offered)
+- #2 [Sudowrite](https://www.sudowrite.com): best for fiction and novel writing. AI built specifically for fiction writers. (rated 8.0/10, primarily paid)
+- #3 [QuillBot](https://quillbot.com): best for paraphrasing and summarizing. Popular paraphraser with extra writing tools. (rated 7.5/10, free option offered)
+- #4 [Jasper](https://www.jasper.ai): best for marketing teams' on-brand copy. AI content platform for marketing teams. (rated 7.0/10, primarily paid)
+- #5 [Hemingway Editor](https://hemingwayapp.com): best for making prose clear and bold. Readability-focused editor with AI features. (rated 7.0/10, free option offered)
+
+## Voice & Audio
+Text-to-speech, voice cloning and audio cleanup. Full ranking: https://aitooldirectory-beta.vercel.app/category/voice.html
+
+- #1 [ElevenLabs](https://elevenlabs.io): best for realistic tts and voice cloning. The benchmark for natural AI voices. (rated 9.0/10, free option offered)
+- #2 [Adobe Podcast](https://podcast.adobe.com): best for cleaning up voice recordings. Enhance Speech makes rough audio sound studio-ish. (rated 8.0/10, free option offered)
+- #3 [OpenAI Whisper](https://github.com/openai/whisper): best for free local transcription. Open-source speech recognition model. (rated 8.0/10, free option offered)
+- #4 [Murf](https://murf.ai): best for voiceovers for presentations. Studio for AI voiceovers. (rated 7.0/10, free option offered)
+- #5 [Resemble AI](https://www.resemble.ai): best for custom voice cloning for products. Voice cloning and synthesis platform with an API. (rated 7.0/10, primarily paid)
+
+## Music
+Song generation and stem separation. Full ranking: https://aitooldirectory-beta.vercel.app/category/music.html
+
+- #1 [Suno](https://suno.com): best for full songs from a prompt. Generates complete songs with vocals. (rated 8.5/10, free option offered)
+- #2 [Udio](https://www.udio.com): best for high-fidelity ai songs. AI music generator with strong audio quality. (rated 8.0/10, free option offered)
+- #3 [LALAL.AI](https://www.lalal.ai): best for stem splitting. AI stem and vocal separation. (rated 7.5/10, free option offered)
+- #4 [AIVA](https://www.aiva.ai): best for soundtrack and orchestral composition. AI composer popular for game and film scores. (rated 7.0/10, free option offered)
+- #5 [Soundraw](https://soundraw.io): best for royalty-free background music. Customizable AI music for creators. (rated 7.0/10, primarily paid)
+
+## Game Dev
+Assets, 3D models and game-building helpers. Full ranking: https://aitooldirectory-beta.vercel.app/category/gamedev.html
+
+- #1 [Meshy](https://www.meshy.ai): best for text/image to 3d models. Generates 3D assets for games and prototypes. (rated 8.0/10, free option offered)
+- #2 [Scenario](https://www.scenario.com): best for style-consistent game assets. Train models on your game's art style. (rated 7.5/10, free option offered)
+- #3 [Inworld AI](https://inworld.ai): best for ai-driven npcs and characters. Platform for interactive AI characters. (rated 7.5/10, free option offered)
+- #4 [Rosebud AI](https://rosebud.ai): best for vibe-coding browser games. Make games from prompts in the browser. (rated 7.5/10, free option offered)
+- #5 [Tripo](https://www.tripo3d.ai): best for fast 3d model generation. Quick text/image-to-3D generator. (rated 7.5/10, free option offered)
+
+## Social Media
+Scheduling, clipping and short-form content. Full ranking: https://aitooldirectory-beta.vercel.app/category/social.html
+
+- #1 [Buffer](https://buffer.com): best for simple post scheduling. Scheduler with an AI assistant. (rated 8.0/10, free option offered)
+- #2 [OpusClip](https://www.opus.pro): best for long video to viral shorts. AI clips long videos into shorts. (rated 8.0/10, free option offered)
+- #3 [Typefully](https://typefully.com): best for writing x/linkedin threads. Distraction-free writing and scheduling for social. (rated 8.0/10, free option offered)
+- #4 [Canva](https://www.canva.com): best for quick social graphics. Design platform with Magic Studio AI tools. (rated 8.0/10, free option offered)
+- #5 [Hootsuite](https://www.hootsuite.com): best for teams managing many accounts. Established social management suite. (rated 7.0/10, primarily paid)
+
+## Research
+AI search engines and document Q&A. Full ranking: https://aitooldirectory-beta.vercel.app/category/research.html
+
+- #1 [Perplexity](https://www.perplexity.ai): best for cited ai answers. Answer engine with sources. (rated 9.0/10, free option offered)
+- #2 [NotebookLM](https://notebooklm.google): best for studying your own docs. Google's source-grounded notebook. (rated 8.5/10, free option offered)
+- #3 [Elicit](https://elicit.com): best for academic paper research. AI research assistant for papers. (rated 8.0/10, free option offered)
+- #4 [Consensus](https://consensus.app): best for evidence from scientific studies. Search engine for research consensus. (rated 7.5/10, free option offered)
+- #5 [scite](https://scite.ai): best for checking how papers are cited. Smart citations showing support/contrast. (rated 7.0/10, primarily paid)
+
+## Productivity
+Meeting notes, workspace AI and assistants. Full ranking: https://aitooldirectory-beta.vercel.app/category/productivity.html
+
+- #1 [Notion AI](https://www.notion.com/product/ai): best for ai inside your workspace. AI built into Notion docs and databases. (rated 8.5/10, free option offered)
+- #2 [Otter.ai](https://otter.ai): best for meeting transcription. Live transcripts and summaries. (rated 8.0/10, free option offered)
+- #3 [Granola](https://www.granola.ai): best for botless meeting notes. Notepad that enhances your notes with AI. (rated 8.0/10, free option offered)
+- #4 [Fireflies.ai](https://fireflies.ai): best for searchable meeting notes. AI notetaker for calls. (rated 7.5/10, free option offered)
+- #5 [Motion](https://www.usemotion.com): best for ai-scheduled calendar. Auto-plans tasks onto your calendar. (rated 7.5/10, primarily paid)
+
+## Design & UI
+Site builders, UI generation and design tools. Full ranking: https://aitooldirectory-beta.vercel.app/category/design.html
+
+- #1 [Figma](https://www.figma.com): best for collaborative ui design. The standard UI tool, now with AI features. (rated 9.0/10, free option offered)
+- #2 [Framer](https://www.framer.com): best for designer-grade websites with ai. Site builder with AI generation. (rated 8.5/10, free option offered)
+- #3 [Relume](https://www.relume.io): best for sitemaps and wireframes. AI site map and wireframe generator. (rated 8.0/10, free option offered)
+- #4 [Uizard](https://uizard.io): best for fast mockups from prompts. AI UI mockup generator. (rated 7.0/10, free option offered)
+- #5 [Looka](https://looka.com): best for logos and brand kits. AI logo and brand builder. (rated 6.5/10, primarily paid)
+
+## Marketing & SEO
+Ad creative, copy and SEO tooling. Full ranking: https://aitooldirectory-beta.vercel.app/category/marketing.html
+
+- #1 [Semrush](https://www.semrush.com): best for all-in-one seo research. Massive SEO and marketing toolkit. (rated 8.5/10, free option offered)
+- #2 [Ahrefs](https://ahrefs.com): best for backlinks and competitor seo. Top-tier SEO data with AI features. (rated 8.5/10, free option offered)
+- #3 [Surfer](https://surferseo.com): best for on-page seo content. Content optimization for search. (rated 8.0/10, primarily paid)
+- #4 [AdCreative.ai](https://www.adcreative.ai): best for ad creatives at scale. Generates ad visuals and copy. (rated 7.0/10, primarily paid)
+- #5 [Copy.ai](https://www.copy.ai): best for gtm copy workflows. AI platform for go-to-market content. (rated 7.0/10, free option offered)
+
+## Chatbots & Assistants
+General-purpose AI chat assistants. Full ranking: https://aitooldirectory-beta.vercel.app/category/chatbots.html
+
+- #1 [ChatGPT](https://chatgpt.com): best for all-round ai assistant. OpenAI's flagship assistant. (rated 9.0/10, free option offered)
+- #2 [Claude](https://claude.ai): best for writing, analysis and coding. Anthropic's assistant. (rated 9.0/10, free option offered)
+- #3 [Gemini](https://gemini.google.com): best for google ecosystem users. Google's assistant across Workspace. (rated 8.5/10, free option offered)
+- #4 [Grok](https://grok.com): best for real-time x context. xAI's assistant with X integration. (rated 8.5/10, free option offered)
+- #5 [Microsoft Copilot](https://copilot.microsoft.com): best for microsoft 365 users. Microsoft's AI assistant. (rated 7.5/10, free option offered)
+- #6 [Kimi K3.1 Pro](https://www.kimi.com/): best for long-context reasoning and full-project coding. Moonshot AI's flagship open-weight model with a 1M-token context. Launched Oct 23, 2026. (not yet rated, free option not confirmed, released 2026-10-23 ([launch post](https://x.com/Kimi_Moonshot/status/2113680701770068067)))
+
+## Free & Open Source
+Local models and open-source AI tools. Full ranking: https://aitooldirectory-beta.vercel.app/category/opensource.html
+
+- #1 [Ollama](https://ollama.com): best for running llms locally. Easiest way to run open models locally. (rated 9.0/10, free option offered)
+- #2 [Hugging Face](https://huggingface.co): best for finding open models. The hub for open models and datasets. (rated 9.0/10, free option offered)
+- #3 [LM Studio](https://lmstudio.ai): best for desktop app for local models. GUI for downloading and chatting with local models. (rated 8.5/10, free option offered)
+- #4 [ComfyUI](https://www.comfy.org): best for node-based image/video pipelines. Powerful open-source diffusion UI. (rated 8.5/10, free option offered)
+- #5 [Open WebUI](https://openwebui.com): best for self-hosted chatgpt-style ui. Self-hostable chat UI for local models. (rated 8.0/10, free option offered)
+- #6 [Ling-3.0-flash-Sante](https://huggingface.co/inclusionAI/Ling-3.0-flash-Sante): best for open-source healthcare research and medical reasoning. Ant Ling's open-source healthcare model. Weights released Oct 22, 2026. (not yet rated, free option offered, released 2026-10-22 ([launch post](https://x.com/AntLingAGI/status/2113293431435149349)))
