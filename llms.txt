@@ -1,6 +1,6 @@
 # AI Tool Rank
 
-> A directory that recommends AI tools by use case, with editorial ratings, verified new releases and verified deals. Last updated 2026-10-26.
+> A directory that recommends AI tools by use case, with editorial ratings, verified new releases and verified deals. Last updated 2026-10-27.
 
 Ratings are editorial opinions, not benchmarks. Pricing changes often; the directory does not list prices it hasn't confirmed, so check each official site. New releases are only added after checking the maker's own launch post, which is linked as the source.
 
@@ -19,6 +19,7 @@ Text-to-video, AI editing and auto-captions. Full ranking: https://aitooldirecto
 - #4 [Pika](https://pika.art): best for quick, playful video clips. Fast, social-friendly AI video generation. (rated 7.5/10, free option offered)
 - #5 [Captions](https://www.captions.ai): best for auto-captioned talking-head videos. Mobile-first AI captions and editing for creators. (rated 7.5/10, free option offered)
 - #6 [HeyGen](https://www.heygen.com): best for ai avatar presenter videos. Avatar and video translation platform. (rated 7.5/10, free option offered)
+- #7 [Cardboard](https://www.cardboard.ai/): best for editing videos by describing the edit in chat. Agentic AI video editor for the browser and Mac, now usable inside ChatGPT and Claude. Launched for ChatGPT and Claude Oct 26, 2026. (not yet rated, free option offered, released 2026-10-26 ([launch post](https://x.com/ishandeveloper/status/2114785370349187268)))
 
 ## Images
 Image generation, upscaling and editing. Full ranking: https://aitooldirectory-beta.vercel.app/category/images.html

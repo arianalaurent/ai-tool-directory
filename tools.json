@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-27",
  "note": "Ratings are editorial. New Releases are verified against the maker's own X post (linked as source); new entries stay unrated until reviewed.",
  "categories": [
   {
@@ -1930,6 +1930,29 @@
    "released": "2026-10-26",
    "source": "https://x.com/cfosilvia/status/2114718747311141283",
    "worthRanking": false,
+   "rank": 7
+  },
+  {
+   "id": "cardboard",
+   "name": "Cardboard",
+   "category": "video",
+   "url": "https://www.cardboard.ai/",
+   "bestFor": "Editing videos by describing the edit in chat",
+   "freeTier": true,
+   "pricing": "Lite is free in the Mac app (watermarked); web plans from $8/month, per Cardboard's pricing page",
+   "blurb": "Agentic AI video editor for the browser and Mac, now usable inside ChatGPT and Claude. Launched for ChatGPT and Claude Oct 26, 2026.",
+   "why": "Cardboard's team announced Cardboard for ChatGPT and Claude, so you can describe an edit in chat and Cardboard cuts, captions, reframes and composes it.",
+   "features": [
+    "ChatGPT and Claude plugins",
+    "Cuts, captions and reframing from a text description",
+    "Browser and Mac app"
+   ],
+   "skip": "Editors who want frame-by-frame manual control or watermark-free exports on the free tier",
+   "rating": null,
+   "isNew": true,
+   "released": "2026-10-26",
+   "source": "https://x.com/ishandeveloper/status/2114785370349187268",
+   "worthRanking": true,
    "rank": 7
   }
  ],

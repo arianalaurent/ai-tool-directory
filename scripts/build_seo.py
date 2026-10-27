@@ -62,6 +62,12 @@ def inject(path, title, desc):
     s = re.sub(r'<!--seo-->.*?<!--/seo-->', '', s, flags=re.S)
     s = re.sub(r'<title>.*?</title>', f'<title>{E(title)}</title>', s, count=1)
     s = s.replace('</title>', '</title>' + head, 1)
+    links = [("index.html","Home"),("new.html","New releases"),("compare.html","Compare"),("deals.html","Deals"),("methodology.html","Methodology"),
+             ("newsletter.html","Newsletter"),("submit.html","Submit a tool"),("advertise.html","Advertise")]
+    nav = ('<!--sitelinks--><nav class="sitelinks" aria-label="Site links">' + "".join(f'<a href="{prefix}{h}">{n}</a>' for h, n in links) +
+           "".join(f'<a href="{prefix}category/{c["id"]}.html">{E(c["name"])}</a>' for c in cats.values()) + '</nav><!--/sitelinks-->')
+    s = re.sub(r'<!--sitelinks-->.*?<!--/sitelinks-->', '', s, flags=re.S)
+    s = s.replace('</main>', '</main>' + nav, 1)
     p.write_text(s)
 
 def fill(s, el_id, content):
