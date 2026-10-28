@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "note": "Ratings are editorial. New Releases are verified against the maker's own X post (linked as source); new entries stay unrated until reviewed.",
  "categories": [
   {
@@ -1952,6 +1952,30 @@
    "isNew": true,
    "released": "2026-10-26",
    "source": "https://x.com/ishandeveloper/status/2114785370349187268",
+   "worthRanking": true,
+   "rank": 7
+  },
+  {
+   "id": "nativ",
+   "name": "Nativ",
+   "category": "opensource",
+   "url": "https://runnativ.ai",
+   "bestFor": "Running open AI models privately on an Apple Silicon Mac",
+   "freeTier": true,
+   "pricing": "Nativ's site says it is open source with no subscription, accounts or credits",
+   "blurb": "Open-source Mac app from Neywa Labs for running open language, vision, audio and code models locally and offline. Neywa Labs came out of stealth Oct 27, 2026.",
+   "why": "Neywa Labs, the team behind mlx-vlm and mlx-audio, announced its local-AI infrastructure on Oct 27, 2026, with Nativ as its Mac app for running open models on devices people already own.",
+   "features": [
+    "Runs open models locally on Apple Silicon, built on MLX-VLM",
+    "Recommends a model that fits your Mac's hardware",
+    "Local endpoint for coding agents like Codex, Claude Code, Aider and Goose",
+    "Live tokens/sec, memory and thermal stats"
+   ],
+   "skip": "Windows or Linux users, and anyone on an Intel Mac",
+   "rating": null,
+   "isNew": true,
+   "released": "2026-10-27",
+   "source": "https://x.com/Prince_Canuma/status/2115128700379566155",
    "worthRanking": true,
    "rank": 7
   }

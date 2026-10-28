@@ -78,7 +78,8 @@ for path, (t, ds) in PAGES.items(): inject(path, t, ds)
 
 urls = [u for u in PAGES if u != "tool.html"]
 (ROOT/"sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-    "".join(f"  <url><loc>{BASE}/{'' if u=='index.html' else u}</loc><lastmod>{d['updated']}</lastmod></url>\n" for u in urls) + "</urlset>\n")
+    "".join(f"  <url><loc>{BASE}/{'' if u=='index.html' else u}</loc><lastmod>{d['updated']}</lastmod></url>\n" for u in urls) +
+    "".join(f"  <url><loc>{BASE}/tool.html?id={t['id']}</loc><lastmod>{d['updated']}</lastmod></url>\n" for t in d["tools"]) + "</urlset>\n")
 (ROOT/"robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n")
 
 L = [f"# AI Tool Rank", "", f"> A directory that recommends AI tools by use case, with editorial ratings, verified new releases and verified deals. Last updated {d['updated']}.", "",
