@@ -1,6 +1,6 @@
 # AI Tool Rank
 
-> A directory that recommends AI tools by use case, with editorial ratings, verified new releases and verified deals. Last updated 2026-10-28.
+> A directory that recommends AI tools by use case, with editorial ratings, verified new releases and verified deals. Last updated 2026-10-29.
 
 Ratings are editorial opinions, not benchmarks. Pricing changes often; the directory does not list prices it hasn't confirmed, so check each official site. New releases are only added after checking the maker's own launch post, which is linked as the source.
 
@@ -144,6 +144,7 @@ General-purpose AI chat assistants. Full ranking: https://aitooldirectory-beta.v
 - #4 [Grok](https://grok.com): best for real-time x context. xAI's assistant with X integration. (rated 8.5/10, free option offered)
 - #5 [Microsoft Copilot](https://copilot.microsoft.com): best for microsoft 365 users. Microsoft's AI assistant. (rated 7.5/10, free option offered)
 - #6 [Kimi K3.1 Pro](https://www.kimi.com/): best for long-context reasoning and full-project coding. Moonshot AI's flagship open-weight model with a 1M-token context. Launched Oct 23, 2026. (not yet rated, free option not confirmed, released 2026-10-23 ([launch post](https://x.com/Kimi_Moonshot/status/2113680701770068067)))
+- #7 [Gemini 4 Carbon](https://deepmind.google/): best for cybersecurity defense and long-horizon tasks (limited early access). Google's latest frontier Gemini model, announced Oct 28, 2026. Rolling out first to cyber defenders, with wider access coming later. (not yet rated, free option not confirmed, released 2026-10-28 ([launch post](https://x.com/Google/status/2115489522603466766)))
 
 ## Free & Open Source
 Local models and open-source AI tools. Full ranking: https://aitooldirectory-beta.vercel.app/category/opensource.html

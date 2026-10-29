@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "note": "Ratings are editorial. New Releases are verified against the maker's own X post (linked as source); new entries stay unrated until reviewed.",
  "categories": [
   {
@@ -1976,6 +1976,29 @@
    "isNew": true,
    "released": "2026-10-27",
    "source": "https://x.com/Prince_Canuma/status/2115128700379566155",
+   "worthRanking": true,
+   "rank": 7
+  },
+  {
+   "id": "gemini4carbon",
+   "name": "Gemini 4 Carbon",
+   "category": "chatbots",
+   "url": "https://deepmind.google/",
+   "bestFor": "Cybersecurity defense and long-horizon tasks (limited early access)",
+   "freeTier": null,
+   "pricing": "Not announced; Google says access starts with cyber defenders in its Fairwind Program",
+   "blurb": "Google's latest frontier Gemini model, announced Oct 28, 2026. Rolling out first to cyber defenders, with wider access coming later.",
+   "why": "Google says Gemini 4 Carbon ranks #1 on v5.0 of the Artificial Analysis Intelligence Index and sets a new state of the art in cybersecurity and long-horizon capabilities. It started rolling out the week of Oct 28, 2026 to cyber defenders through Google's Fairwind Program, with expanded access coming soon.",
+   "features": [
+    "#1 on Artificial Analysis Intelligence Index v5.0 (per Google)",
+    "State-of-the-art cybersecurity and long-horizon capabilities (per Google)",
+    "Early access through Google's Fairwind Program for cyber defenders"
+   ],
+   "skip": "Most people for now, since general access hasn't opened yet",
+   "rating": null,
+   "isNew": true,
+   "released": "2026-10-28",
+   "source": "https://x.com/Google/status/2115489522603466766",
    "worthRanking": true,
    "rank": 7
   }

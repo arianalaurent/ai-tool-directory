@@ -47,6 +47,9 @@ def inject(path, title, desc):
         extra = ld({"@context": "https://schema.org", "@type": "ItemList", "name": f"Best AI Tools for {cats[cid]['name']}",
                     "itemListOrder": "https://schema.org/ItemListOrderAscending",
                     "itemListElement": [tool_ld(t, i+1) for i, t in enumerate(by_cat[cid])]})
+        extra += ld({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "name": "AI Tool Rank", "item": BASE + "/"},
+                    {"@type": "ListItem", "position": 2, "name": cats[cid]["name"], "item": url}]})
         s = re.sub(r'<h1 id="t">.*?</h1>', f'<h1 id="t">Best AI Tools for {E(cats[cid]["name"])}</h1>', s)
         s = re.sub(r'<p id="i" class="muted">.*?</p>', f'<p id="i" class="muted">{E(cats[cid]["intro"])}</p>', s)
         s = fill(s, "list", static_list(by_cat[cid], prefix))
