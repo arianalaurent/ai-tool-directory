@@ -1,6 +1,6 @@
 # AI Tool Rank
 
-> A directory that recommends AI tools by use case, with editorial ratings, verified new releases and verified deals. Last updated 2026-10-29.
+> A directory that recommends AI tools by use case, with editorial ratings, verified new releases and verified deals. Last updated 2026-10-30.
 
 Ratings are editorial opinions, not benchmarks. Pricing changes often; the directory does not list prices it hasn't confirmed, so check each official site. New releases are only added after checking the maker's own launch post, which is linked as the source.
 
@@ -156,3 +156,4 @@ Local models and open-source AI tools. Full ranking: https://aitooldirectory-bet
 - #5 [Open WebUI](https://openwebui.com): best for self-hosted chatgpt-style ui. Self-hostable chat UI for local models. (rated 8.0/10, free option offered)
 - #6 [Ling-3.0-flash-Sante](https://huggingface.co/inclusionAI/Ling-3.0-flash-Sante): best for open-source healthcare research and medical reasoning. Ant Ling's open-source healthcare model. Weights released Oct 22, 2026. (not yet rated, free option offered, released 2026-10-22 ([launch post](https://x.com/AntLingAGI/status/2113293431435149349)))
 - #7 [Nativ](https://runnativ.ai): best for running open ai models privately on an apple silicon mac. Open-source Mac app from Neywa Labs for running open language, vision, audio and code models locally and offline. Neywa Labs came out of stealth Oct 27, 2026. (not yet rated, free option offered, released 2026-10-27 ([launch post](https://x.com/Prince_Canuma/status/2115128700379566155)))
+- #8 [Mistral Large 4](https://mistral.ai/news/mistral-large-4-oss/): best for self-hosted agentic coding and cyber defense on open weights. Mistral's 1T-parameter multimodal model (nicknamed Le Chonk), with open weights released Oct 29, 2026. (not yet rated, free option not confirmed, released 2026-10-29 ([launch post](https://x.com/MistralAI/status/2115811242556137820)))

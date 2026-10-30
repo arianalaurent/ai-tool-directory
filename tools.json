@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "note": "Ratings are editorial. New Releases are verified against the maker's own X post (linked as source); new entries stay unrated until reviewed.",
  "categories": [
   {
@@ -2001,6 +2001,29 @@
    "source": "https://x.com/Google/status/2115489522603466766",
    "worthRanking": true,
    "rank": 7
+  },
+  {
+   "id": "mistrallarge4",
+   "name": "Mistral Large 4",
+   "category": "opensource",
+   "url": "https://mistral.ai/news/mistral-large-4-oss/",
+   "bestFor": "Self-hosted agentic coding and cyber defense on open weights",
+   "freeTier": null,
+   "pricing": "Weights downloadable on Hugging Face; see Mistral's site for hosted API pricing",
+   "blurb": "Mistral's 1T-parameter multimodal model (nicknamed Le Chonk), with open weights released Oct 29, 2026.",
+   "why": "Mistral released the weights of an improved Mistral Large 4 on Oct 29, 2026. Mistral says it is a 1T-parameter multimodal model trained in Europe, ranks #1 among open models on Cognition's FrontierCode, and is state of the art in cyber defense. Weights are on Hugging Face and it can be customized with Mistral Forge and deployed anywhere.",
+   "features": [
+    "Open weights on Hugging Face (Mistral-Large-4-1T-A52B)",
+    "#1 open model on Cognition's FrontierCode (per Mistral)",
+    "Customizable with Mistral Forge and self-deployable"
+   ],
+   "skip": "Anyone without serious GPU hardware who just wants a chat app",
+   "rating": null,
+   "isNew": true,
+   "released": "2026-10-29",
+   "source": "https://x.com/MistralAI/status/2115811242556137820",
+   "worthRanking": true,
+   "rank": 8
   }
  ],
  "deals": [

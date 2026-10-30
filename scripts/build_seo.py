@@ -31,6 +31,10 @@ def ld(obj): return '<script type="application/ld+json">' + json.dumps(obj, ensu
 def tool_ld(t, i):
     o = {"@type": "ListItem", "position": i, "item": {"@type": "SoftwareApplication", "name": t["name"], "url": t["url"],
          "applicationCategory": cats[t["category"]]["name"], "description": t["blurb"]}}
+    if t.get("released"):
+        o["item"]["datePublished"] = t["released"]
+    if t.get("source"):
+        o["item"]["subjectOf"] = {"@type": "SocialMediaPosting", "url": t["source"]}
     return o
 def static_list(ts, prefix):
     return "".join(f'<div class="card"><h3><a href="{prefix}tool.html?id={E(t["id"])}">{E(t["name"])}</a></h3><p class="muted">Best for: {E(t["bestFor"])}. {E(t["blurb"])}</p></div>' for t in ts)
