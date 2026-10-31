@@ -2,7 +2,9 @@
 """Regenerate SEO + AI-discoverability files from tools.json.
 Idempotent: injects head tags between <!--seo--> markers, static crawlable lists
 between <!--static--> markers, and rewrites sitemap.xml, robots.txt, llms.txt."""
-import json, re, html, pathlib
+import json, re, html, pathlib, sys
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import build_newsletter
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 BASE = "https://aitooldirectory-beta.vercel.app"
 d = json.loads((ROOT/"tools.json").read_text())
@@ -23,6 +25,9 @@ PAGES = {
  "newsletter.html": ("AI Tool Rank Newsletter: New AI Tools Weekly", "A weekly email with the newest AI tool releases and ranking changes from AI Tool Rank."),
  "tool.html": ("AI Tool Details | AI Tool Rank", "Write-up of an AI tool: what it's best for, standout features, who should skip it, pricing notes and editorial rating."),
 }
+NL_ISSUES = build_newsletter.build()
+PAGES["newsletter/index.html"] = ("Newsletter Archive: The Weekly Drop | AI Tool Rank", "Every past issue of The Weekly Drop, AI Tool Rank's weekly newsletter on new AI tool releases and ranking changes, newest first.")
+for _p, _t, _d, _n, _i in NL_ISSUES: PAGES[_p] = (_t, _d)
 for c in cats.values():
     PAGES[f"category/{c['id']}.html"] = (f"Best AI Tools for {c['name']} ({len(by_cat[c['id']])} ranked) | AI Tool Rank",
         f"Ranked AI tools for {c['name'].lower()}: {c['intro'].rstrip('.')}. Top picks: " + ", ".join(t['name'] for t in by_cat[c['id']][:4]) + ".")
@@ -42,7 +47,7 @@ def static_list(ts, prefix):
 def inject(path, title, desc):
     p = ROOT/path; s = p.read_text()
     url = BASE + "/" + ("" if path == "index.html" else path)
-    prefix = "../" if path.startswith("category/") else ""
+    prefix = "../" if "/" in path else ""
     extra = ""
     if path == "index.html":
         extra = ld({"@context": "https://schema.org", "@type": "WebSite", "name": "AI Tool Rank", "url": BASE + "/", "description": desc})
@@ -57,6 +62,9 @@ def inject(path, title, desc):
         s = re.sub(r'<h1 id="t">.*?</h1>', f'<h1 id="t">Best AI Tools for {E(cats[cid]["name"])}</h1>', s)
         s = re.sub(r'<p id="i" class="muted">.*?</p>', f'<p id="i" class="muted">{E(cats[cid]["intro"])}</p>', s)
         s = fill(s, "list", static_list(by_cat[cid], prefix))
+    elif path.startswith("newsletter/2"):
+        extra = ld({"@context": "https://schema.org", "@type": "Article", "headline": title.split(" | ")[0], "description": desc,
+                    "datePublished": path[11:21], "author": {"@type": "Person", "name": "Ariana"}, "url": url})
     elif path == "new.html":
         extra = ld({"@context": "https://schema.org", "@type": "ItemList", "name": "New AI Tool Releases",
                     "itemListElement": [tool_ld(t, i+1) for i, t in enumerate(new)]})
@@ -70,7 +78,7 @@ def inject(path, title, desc):
     s = re.sub(r'<title>.*?</title>', f'<title>{E(title)}</title>', s, count=1)
     s = s.replace('</title>', '</title>' + head, 1)
     links = [("index.html","Home"),("new.html","New releases"),("compare.html","Compare"),("deals.html","Deals"),("methodology.html","Methodology"),
-             ("newsletter.html","Newsletter"),("submit.html","Submit a tool"),("advertise.html","Advertise")]
+             ("newsletter.html","Newsletter"),("newsletter/index.html","Newsletter archive"),("submit.html","Submit a tool"),("advertise.html","Advertise")]
     nav = ('<!--sitelinks--><nav class="sitelinks" aria-label="Site links">' + "".join(f'<a href="{prefix}{h}">{n}</a>' for h, n in links) +
            "".join(f'<a href="{prefix}category/{c["id"]}.html">{E(c["name"])}</a>' for c in cats.values()) + '</nav><!--/sitelinks-->')
     s = re.sub(r'<!--sitelinks-->.*?<!--/sitelinks-->', '', s, flags=re.S)
@@ -93,7 +101,9 @@ L = [f"# AI Tool Rank", "", f"> A directory that recommends AI tools by use case
      "Ratings are editorial opinions, not benchmarks. Pricing changes often; the directory does not list prices it hasn't confirmed, so check each official site. New releases are only added after checking the maker's own launch post, which is linked as the source.", "",
      "## Pages", f"- [New releases]({BASE}/new.html): newest verified AI tool launches with dates and source posts",
      f"- [Deals]({BASE}/deals.html): verified student, startup and free-tier offers", f"- [Compare]({BASE}/compare.html): side-by-side tool comparison",
-     f"- [Methodology]({BASE}/methodology.html): how tools are rated", ""]
+     f"- [Methodology]({BASE}/methodology.html): how tools are rated",
+     f"- [Newsletter archive]({BASE}/newsletter/index.html): past issues of the weekly newsletter"] + [
+     f"- [Newsletter {n}]({BASE}/{p}): {t.split(' | ')[0]}" for p, t, _d, n, _i in NL_ISSUES] + [""]
 for c in cats.values():
     L += [f"## {c['name']}", f"{c['intro']} Full ranking: {BASE}/category/{c['id']}.html", ""]
     for t in by_cat[c["id"]]:

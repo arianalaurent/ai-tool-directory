@@ -9,6 +9,8 @@ Ratings are editorial opinions, not benchmarks. Pricing changes often; the direc
 - [Deals](https://aitooldirectory-beta.vercel.app/deals.html): verified student, startup and free-tier offers
 - [Compare](https://aitooldirectory-beta.vercel.app/compare.html): side-by-side tool comparison
 - [Methodology](https://aitooldirectory-beta.vercel.app/methodology.html): how tools are rated
+- [Newsletter archive](https://aitooldirectory-beta.vercel.app/newsletter/index.html): past issues of the weekly newsletter
+- [Newsletter Oct 29, 2026](https://aitooldirectory-beta.vercel.app/newsletter/2026-10-29.html): Gemini 4 Carbon, a free local-AI Mac app, and chat-based video editing
 
 ## Video
 Text-to-video, AI editing and auto-captions. Full ranking: https://aitooldirectory-beta.vercel.app/category/video.html
