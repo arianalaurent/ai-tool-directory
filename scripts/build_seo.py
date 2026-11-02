@@ -9,6 +9,15 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 BASE = "https://aitooldirectory-beta.vercel.app"
 d = json.loads((ROOT/"tools.json").read_text())
 E = lambda s: html.escape(str(s or ""), quote=True)
+def lc_first(s):
+    """Lowercase only a sentence-initial capital, keeping proper nouns and acronyms intact."""
+    w = s.split(" ", 1)
+    if w[0][:1].isupper() and not any(ch.isupper() for ch in w[0][1:]) and w[0] not in PROPER:
+        w[0] = w[0][:1].lower() + w[0][1:]
+    return " ".join(w)
+PROPER = {"Apple", "Google", "Claude", "Mac", "YouTube", "TikTok", "Instagram", "Notion", "Figma", "Canva", "Unity", "Unreal"}
+def lc_words(s):
+    return " ".join(x if (x[1:2].isupper() or x in PROPER) else x.lower() for x in s.split(" "))
 cats = {c["id"]: c for c in d["categories"]}
 by_cat = {c: sorted([t for t in d["tools"] if t["category"] == c], key=lambda t: t["rank"]) for c in cats}
 new = sorted([t for t in d["tools"] if t.get("isNew")], key=lambda t: t.get("released") or "", reverse=True)
@@ -30,7 +39,7 @@ PAGES["newsletter/index.html"] = ("Newsletter Archive: The Weekly Drop | AI Tool
 for _p, _t, _d, _n, _i in NL_ISSUES: PAGES[_p] = (_t, _d)
 for c in cats.values():
     PAGES[f"category/{c['id']}.html"] = (f"Best AI Tools for {c['name']} ({len(by_cat[c['id']])} ranked) | AI Tool Rank",
-        f"Ranked AI tools for {c['name'].lower()}: {c['intro'].rstrip('.')}. Top picks: " + ", ".join(t['name'] for t in by_cat[c['id']][:4]) + ".")
+        f"Ranked AI tools for {lc_words(c['name'])}: {c['intro'].rstrip('.')}. Top picks: " + ", ".join(t['name'] for t in by_cat[c['id']][:4]) + ".")
 
 def ld(obj): return '<script type="application/ld+json">' + json.dumps(obj, ensure_ascii=False).replace("</", "<\\/") + '</script>'
 def tool_ld(t, i):
@@ -110,7 +119,7 @@ for c in cats.values():
         r = f"rated {t['rating']}/10" if t.get("rating") is not None else "not yet rated"
         ft = {True: "free option offered", False: "primarily paid", None: "free option not confirmed"}[t.get("freeTier")]
         rel = f", released {t['released']} ([launch post]({t['source']}))" if t.get("released") and t.get("source") else ""
-        L.append(f"- #{t['rank']} [{t['name']}]({t['url']}): best for {t['bestFor'].lower()}. {t['blurb']} ({r}, {ft}{rel})")
+        L.append(f"- #{t['rank']} [{t['name']}]({t['url']}): best for {lc_first(t['bestFor'])}. {t['blurb']} ({r}, {ft}{rel})")
     L.append("")
 (ROOT/"llms.txt").write_text("\n".join(L))
 print("built", len(PAGES), "pages")

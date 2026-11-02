@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-11-02",
  "note": "Ratings are editorial. New Releases are verified against the maker's own X post (linked as source); new entries stay unrated until reviewed.",
  "categories": [
   {
@@ -2024,6 +2024,54 @@
    "source": "https://x.com/MistralAI/status/2115811242556137820",
    "worthRanking": true,
    "rank": 8
+  },
+  {
+   "id": "pikah3flex",
+   "name": "Pika H3 Flex",
+   "category": "video",
+   "url": "https://github.com/Pika-Labs/Pika-H3-Flex",
+   "bestFor": "Fast text-to-video and image-to-video with synced audio on open weights",
+   "freeTier": true,
+   "pricing": "Open weights on Hugging Face; Pika says its API starts at $0.01 per second, with 15 free generations a day for two weeks from launch",
+   "blurb": "Pika's open-weight video model with soundtrack, exportable audio stems and up to 4K output, released Oct 29, 2026.",
+   "why": "Pika launched H3 Flex on Oct 29, 2026 as the #1 open-weight model on DesignArena's text-to-video board (#7 overall, per Pika). It is post-trained on MiniMax H3 and distilled to six denoising steps, and Pika says it can make a 15-second clip with soundtrack faster than real time. Code is on GitHub and weights on Hugging Face, with ComfyUI and diffusers support.",
+   "features": [
+    "Open weights on Hugging Face, code on GitHub",
+    "Exportable audio stems (dialogue, music, effects)",
+    "Resolutions up to 4K",
+    "Runs in ComfyUI and diffusers"
+   ],
+   "skip": "Anyone who wants a polished consumer editing app rather than a model and API",
+   "rating": null,
+   "isNew": true,
+   "released": "2026-10-29",
+   "source": "https://x.com/pika_labs/status/2115860471215788262",
+   "worthRanking": true,
+   "rank": 8
+  },
+  {
+   "id": "auraautopilot",
+   "name": "Aura Autopilot",
+   "category": "gamedev",
+   "url": "https://github.com/ramenvr/autopilot/",
+   "bestFor": "Automated playtesting and bug hunting inside Unreal, Unity and Godot",
+   "freeTier": true,
+   "pricing": "Open source on GitHub; you supply the AI model or coding agent it runs with",
+   "blurb": "Open-source agent from Ramen, the team behind Aura, that plays your game in the editor and reports bugs. Open-sourced Oct 30, 2026.",
+   "why": "Aura open-sourced Autopilot on Oct 30, 2026. It plugs into Unreal Engine 5, Unity 6 and Godot 4 on Windows and macOS, takes a plain-English playtesting goal, writes a control harness for the specific game and plays it with real input. Aura says it is 43% more accurate and almost 2x faster than Claude Code at playtesting, and published a white paper on its method.",
+   "features": [
+    "Editor plugin for Unreal Engine 5, Unity 6 and Godot 4",
+    "Plain-English playtest tasks",
+    "Saves a video recording of the play session with its report",
+    "Works alongside Claude Code"
+   ],
+   "skip": "Non-game projects, or teams that need it to test packaged builds outside the editor",
+   "rating": null,
+   "isNew": true,
+   "released": "2026-10-30",
+   "source": "https://x.com/Aura_Assistant/status/2116191580063404100",
+   "worthRanking": true,
+   "rank": 6
   }
  ],
  "deals": [
