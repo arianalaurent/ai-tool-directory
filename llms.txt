@@ -1,6 +1,6 @@
 # AI Tool Rank
 
-> A directory that recommends AI tools by use case, with editorial ratings, verified new releases and verified deals. Last updated 2026-11-02.
+> A directory that recommends AI tools by use case, with editorial ratings, verified new releases and verified deals. Last updated 2026-11-03.
 
 Ratings are editorial opinions, not benchmarks. Pricing changes often; the directory does not list prices it hasn't confirmed, so check each official site. New releases are only added after checking the maker's own launch post, which is linked as the source.
 
@@ -56,6 +56,7 @@ Agent builders, browser agents and automation. Full ranking: https://aitooldirec
 - #5 [CrewAI](https://www.crewai.com): best for multi-agent teams in Python. Framework for orchestrating role-based agents. (rated 7.5/10, free option offered)
 - #6 [Browser Use](https://browser-use.com): best for letting AI control a browser. Open-source library for browser-driving agents. (rated 7.5/10, free option offered)
 - #7 [Silvia MCP](https://www.cfosilvia.com/): best for giving AI agents your live personal finance context. Silvia's 'AI CFO' as an MCP server for your existing agents. Launched Oct 26, 2026. (not yet rated, free option offered, released 2026-10-26 ([launch post](https://x.com/cfosilvia/status/2114718747311141283)))
+- #8 [LongCat-2.5](https://longcat.ai/blog/longcat-2.5/): best for long-horizon agent tasks and visual coding (design, 3D) through an API. Meituan's natively multimodal agent model with 1.6T total and about 48B active parameters, released Nov 2, 2026. (not yet rated, primarily paid, released 2026-11-02 ([launch post](https://x.com/Meituan_LongCat/status/2117264311714537633)))
 
 ## Writing
 Drafting, rewriting and editing with AI. Full ranking: https://aitooldirectory-beta.vercel.app/category/writing.html
@@ -111,6 +112,7 @@ AI search engines and document Q&A. Full ranking: https://aitooldirectory-beta.v
 - #3 [Elicit](https://elicit.com): best for academic paper research. AI research assistant for papers. (rated 8.0/10, free option offered)
 - #4 [Consensus](https://consensus.app): best for evidence from scientific studies. Search engine for research consensus. (rated 7.5/10, free option offered)
 - #5 [scite](https://scite.ai): best for checking how papers are cited. Smart citations showing support/contrast. (rated 7.0/10, primarily paid)
+- #6 [Hydrogen-1.0](https://huggingface.co/deep-principle/Hydrogen-1.0): best for scientific reasoning, simulations and experiment planning with open weights. Deep Principle's first general-purpose model for scientific discovery, released with open weights Nov 2, 2026. (not yet rated, free option offered, released 2026-11-02 ([launch post](https://x.com/DeepPrinciple/status/2117249008972550447)))
 
 ## Productivity
 Meeting notes, workspace AI and assistants. Full ranking: https://aitooldirectory-beta.vercel.app/category/productivity.html

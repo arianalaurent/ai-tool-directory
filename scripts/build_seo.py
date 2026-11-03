@@ -101,8 +101,12 @@ def fill(s, el_id, content):
 for path, (t, ds) in PAGES.items(): inject(path, t, ds)
 
 urls = [u for u in PAGES if u != "tool.html"]
+def issue_date(u):
+    # Published newsletter issues never change after their issue date, so report that as lastmod.
+    m = re.fullmatch(r"newsletter/(\d{4}-\d{2}-\d{2})\.html", u)
+    return m.group(1) if m else None
 (ROOT/"sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-    "".join(f"  <url><loc>{BASE}/{'' if u=='index.html' else u}</loc><lastmod>{d['updated']}</lastmod></url>\n" for u in urls) +
+    "".join(f"  <url><loc>{BASE}/{'' if u=='index.html' else u}</loc><lastmod>{issue_date(u) or d['updated']}</lastmod></url>\n" for u in urls) +
     "".join(f"  <url><loc>{BASE}/tool.html?id={t['id']}</loc><lastmod>{d['updated']}</lastmod></url>\n" for t in d["tools"]) + "</urlset>\n")
 (ROOT/"robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n")
 

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "note": "Ratings are editorial. New Releases are verified against the maker's own X post (linked as source); new entries stay unrated until reviewed.",
  "categories": [
   {
@@ -2072,6 +2072,54 @@
    "source": "https://x.com/Aura_Assistant/status/2116191580063404100",
    "worthRanking": true,
    "rank": 6
+  },
+  {
+   "id": "hydrogen10",
+   "name": "Hydrogen-1.0",
+   "category": "research",
+   "url": "https://huggingface.co/deep-principle/Hydrogen-1.0",
+   "bestFor": "Scientific reasoning, simulations and experiment planning with open weights",
+   "freeTier": true,
+   "pricing": "Open weights under the MIT license on Hugging Face; also offered inside Deep Principle's paid MIRA product",
+   "blurb": "Deep Principle's first general-purpose model for scientific discovery, released with open weights Nov 2, 2026.",
+   "why": "Deep Principle released Hydrogen-1.0 on Nov 2, 2026. It is fine-tuned from Z.ai's GLM-5.3 and published on Hugging Face under the MIT license. Deep Principle says it helps researchers reason through scientific questions, run calculations and simulations, turn ideas into experimental plans and use results to guide the next experiment.",
+   "features": [
+    "Open weights (MIT license) on Hugging Face",
+    "Built on GLM-5.3",
+    "Available in Deep Principle's MIRA AI Scientist product",
+    "NVFP4 quantized version published"
+   ],
+   "skip": "Everyday chat or coding work, or anyone without hardware to host a very large open model",
+   "rating": null,
+   "isNew": true,
+   "released": "2026-11-02",
+   "source": "https://x.com/DeepPrinciple/status/2117249008972550447",
+   "worthRanking": true,
+   "rank": 6
+  },
+  {
+   "id": "longcat25",
+   "name": "LongCat-2.5",
+   "category": "agents",
+   "url": "https://longcat.ai/blog/longcat-2.5/",
+   "bestFor": "Long-horizon agent tasks and visual coding (design, 3D) through an API",
+   "freeTier": false,
+   "pricing": "API access; see longcat.ai for current pricing",
+   "blurb": "Meituan's natively multimodal agent model with 1.6T total and about 48B active parameters, released Nov 2, 2026.",
+   "why": "Meituan released LongCat-2.5 on Nov 2, 2026 as the full version of September's preview. Meituan describes it as a natively multimodal agentic model with 1.6T total parameters and about 48B active, built for long-horizon agent work, complex coding projects and visual coding such as creative design and 3D. At launch it is available by API only.",
+   "features": [
+    "Natively multimodal (image and text input)",
+    "1.6T total / ~48B active parameters",
+    "Aimed at long-horizon agentic coding",
+    "API access"
+   ],
+   "skip": "Anyone who needs downloadable weights today, or wants independently verified benchmark results",
+   "rating": null,
+   "isNew": true,
+   "released": "2026-11-02",
+   "source": "https://x.com/Meituan_LongCat/status/2117264311714537633",
+   "worthRanking": true,
+   "rank": 8
   }
  ],
  "deals": [
