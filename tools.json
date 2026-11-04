@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "note": "Ratings are editorial. New Releases are verified against the maker's own X post (linked as source); new entries stay unrated until reviewed.",
  "categories": [
   {
@@ -2118,6 +2118,54 @@
    "isNew": true,
    "released": "2026-11-02",
    "source": "https://x.com/Meituan_LongCat/status/2117264311714537633",
+   "worthRanking": true,
+   "rank": 8
+  },
+  {
+   "id": "hy4",
+   "name": "Hy4",
+   "category": "chatbots",
+   "url": "https://hy.tencent.ai/research/hy4?langVersion=en",
+   "bestFor": "Low-cost agentic work with vision: frontend and game coding, finance research and office documents",
+   "freeTier": false,
+   "pricing": "API at $0.834 per million input tokens, $2.501 per million output tokens and $0.042 per million cached input tokens (Tencent's launch post); on Tencent Cloud and OpenRouter",
+   "blurb": "Tencent's Hunyuan model with vision and computer use for the first time, released Nov 4, 2026.",
+   "why": "Tencent released Hy4 on Nov 4, 2026 as the full version of its Hy4 preview. Tencent says it adds image understanding and computer use (command line and graphical apps) for the first time, with gains in instruction following, long context, long-horizon tasks and deep research. It is available on Tencent Cloud and OpenRouter and inside Tencent products such as CodeBuddy, WorkBuddy and Yuanbao. Tencent plans to open-source the weights but had not released them at launch.",
+   "features": [
+    "Image understanding and computer use",
+    "Tuned for frontend, game dev (Unreal, Unity, Godot) and finance tasks",
+    "Available on Tencent Cloud and OpenRouter",
+    "Open weights promised, not yet released"
+   ],
+   "skip": "Anyone who needs downloadable weights today; Tencent says a gap remains versus top proprietary models on hard math and long-horizon coding",
+   "rating": null,
+   "isNew": true,
+   "released": "2026-11-04",
+   "source": "https://x.com/TencentHunyuan/status/2117870250838630539",
+   "worthRanking": true,
+   "rank": 8
+  },
+  {
+   "id": "ph3image",
+   "name": "P-H3-Image",
+   "category": "images",
+   "url": "https://huggingface.co/PrunaAI/P-H3-Image",
+   "bestFor": "Fast photorealistic image generation and editing you can run yourself",
+   "freeTier": true,
+   "pricing": "Open weights on Hugging Face (custom license; check the model card before commercial use); free demo on a Hugging Face Space",
+   "blurb": "Pruna AI's open image generation and editing model built from MiniMax-H3, released Nov 3, 2026.",
+   "why": "Pruna AI open-sourced P-H3-Image on Nov 3, 2026, adapting MiniMax's H3 video model into an image model. Pruna says it generates or edits images in 8 steps instead of 50, renders 2 to 16 megapixels, edits with up to 8 input images, and is about 7 times smaller than H3 so it runs on a much smaller GPU. Pruna says it is strongest at photorealism, editorial photography, film stills and graphic styles with short text. It works with Diffusers and ComfyUI.",
+   "features": [
+    "Open weights on Hugging Face",
+    "2 to 16 MP output, edits with up to 8 reference images",
+    "Native ComfyUI support",
+    "Free Hugging Face Space demo"
+   ],
+   "skip": "Anyone without a capable local GPU who wants a polished hosted app, or long text rendering in images",
+   "rating": null,
+   "isNew": true,
+   "released": "2026-11-03",
+   "source": "https://x.com/PrunaAI/status/2117663564487926043",
    "worthRanking": true,
    "rank": 8
   }

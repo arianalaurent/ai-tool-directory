@@ -117,6 +117,10 @@ L = [f"# AI Tool Rank", "", f"> A directory that recommends AI tools by use case
      f"- [Methodology]({BASE}/methodology.html): how tools are rated",
      f"- [Newsletter archive]({BASE}/newsletter/index.html): past issues of the weekly newsletter"] + [
      f"- [Newsletter {n}]({BASE}/{p}): {t.split(' | ')[0]}" for p, t, _d, n, _i in NL_ISSUES] + [""]
+# Newest verified launches first, so AI answer engines can cite "what's new" without parsing every category.
+L += ["## Latest releases", f"The newest verified launches, newest first. Full list: {BASE}/new.html", ""]
+L += [f"- {t['released']}: [{t['name']}]({BASE}/tool.html?id={t['id']}) ({cats[t['category']]['name']}). {t['blurb']} Source: {t['source']}"
+      for t in new[:8] if t.get("released") and t.get("source")] + [""]
 for c in cats.values():
     L += [f"## {c['name']}", f"{c['intro']} Full ranking: {BASE}/category/{c['id']}.html", ""]
     for t in by_cat[c["id"]]:

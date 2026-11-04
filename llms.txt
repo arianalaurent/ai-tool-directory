@@ -1,6 +1,6 @@
 # AI Tool Rank
 
-> A directory that recommends AI tools by use case, with editorial ratings, verified new releases and verified deals. Last updated 2026-11-03.
+> A directory that recommends AI tools by use case, with editorial ratings, verified new releases and verified deals. Last updated 2026-11-04.
 
 Ratings are editorial opinions, not benchmarks. Pricing changes often; the directory does not list prices it hasn't confirmed, so check each official site. New releases are only added after checking the maker's own launch post, which is linked as the source.
 
@@ -11,6 +11,18 @@ Ratings are editorial opinions, not benchmarks. Pricing changes often; the direc
 - [Methodology](https://aitooldirectory-beta.vercel.app/methodology.html): how tools are rated
 - [Newsletter archive](https://aitooldirectory-beta.vercel.app/newsletter/index.html): past issues of the weekly newsletter
 - [Newsletter Oct 29, 2026](https://aitooldirectory-beta.vercel.app/newsletter/2026-10-29.html): Gemini 4 Carbon, a free local-AI Mac app, and chat-based video editing
+
+## Latest releases
+The newest verified launches, newest first. Full list: https://aitooldirectory-beta.vercel.app/new.html
+
+- 2026-11-04: [Hy4](https://aitooldirectory-beta.vercel.app/tool.html?id=hy4) (Chatbots & Assistants). Tencent's Hunyuan model with vision and computer use for the first time, released Nov 4, 2026. Source: https://x.com/TencentHunyuan/status/2117870250838630539
+- 2026-11-03: [P-H3-Image](https://aitooldirectory-beta.vercel.app/tool.html?id=ph3image) (Images). Pruna AI's open image generation and editing model built from MiniMax-H3, released Nov 3, 2026. Source: https://x.com/PrunaAI/status/2117663564487926043
+- 2026-11-02: [Hydrogen-1.0](https://aitooldirectory-beta.vercel.app/tool.html?id=hydrogen10) (Research). Deep Principle's first general-purpose model for scientific discovery, released with open weights Nov 2, 2026. Source: https://x.com/DeepPrinciple/status/2117249008972550447
+- 2026-11-02: [LongCat-2.5](https://aitooldirectory-beta.vercel.app/tool.html?id=longcat25) (AI Agents). Meituan's natively multimodal agent model with 1.6T total and about 48B active parameters, released Nov 2, 2026. Source: https://x.com/Meituan_LongCat/status/2117264311714537633
+- 2026-10-30: [Aura Autopilot](https://aitooldirectory-beta.vercel.app/tool.html?id=auraautopilot) (Game Dev). Open-source agent from Ramen, the team behind Aura, that plays your game in the editor and reports bugs. Open-sourced Oct 30, 2026. Source: https://x.com/Aura_Assistant/status/2116191580063404100
+- 2026-10-29: [Mistral Large 4](https://aitooldirectory-beta.vercel.app/tool.html?id=mistrallarge4) (Free & Open Source). Mistral's 1T-parameter multimodal model (nicknamed Le Chonk), with open weights released Oct 29, 2026. Source: https://x.com/MistralAI/status/2115811242556137820
+- 2026-10-29: [Pika H3 Flex](https://aitooldirectory-beta.vercel.app/tool.html?id=pikah3flex) (Video). Pika's open-weight video model with soundtrack, exportable audio stems and up to 4K output, released Oct 29, 2026. Source: https://x.com/pika_labs/status/2115860471215788262
+- 2026-10-28: [Gemini 4 Carbon](https://aitooldirectory-beta.vercel.app/tool.html?id=gemini4carbon) (Chatbots & Assistants). Google's latest frontier Gemini model, announced Oct 28, 2026. Rolling out first to cyber defenders, with wider access coming later. Source: https://x.com/Google/status/2115489522603466766
 
 ## Video
 Text-to-video, AI editing and auto-captions. Full ranking: https://aitooldirectory-beta.vercel.app/category/video.html
@@ -34,6 +46,7 @@ Image generation, upscaling and editing. Full ranking: https://aitooldirectory-b
 - #5 [Krea](https://www.krea.ai): best for real-time generation & upscaling. Real-time canvas plus enhancer tools. (rated 7.5/10, free option offered)
 - #6 [Adobe Firefly](https://firefly.adobe.com): best for commercially-minded generation in Adobe workflows. Adobe's generative models, integrated with Creative Cloud. (rated 7.5/10, free option offered)
 - #7 [Canva Craft](https://www.canva.com/newsroom/news/canva-craft/): best for design-focused image generation inside Canva. Canva's first in-house image model, built for design. Launched Oct 22, 2026. (not yet rated, free option not confirmed, released 2026-10-22 ([launch post](https://x.com/canva/status/2113348707223753165)))
+- #8 [P-H3-Image](https://huggingface.co/PrunaAI/P-H3-Image): best for fast photorealistic image generation and editing you can run yourself. Pruna AI's open image generation and editing model built from MiniMax-H3, released Nov 3, 2026. (not yet rated, free option offered, released 2026-11-03 ([launch post](https://x.com/PrunaAI/status/2117663564487926043)))
 
 ## Coding & Vibe Coding
 AI code editors, app builders and coding agents. Full ranking: https://aitooldirectory-beta.vercel.app/category/coding.html
@@ -151,6 +164,7 @@ General-purpose AI chat assistants. Full ranking: https://aitooldirectory-beta.v
 - #5 [Microsoft Copilot](https://copilot.microsoft.com): best for microsoft 365 users. Microsoft's AI assistant. (rated 7.5/10, free option offered)
 - #6 [Kimi K3.1 Pro](https://www.kimi.com/): best for long-context reasoning and full-project coding. Moonshot AI's flagship open-weight model with a 1M-token context. Launched Oct 23, 2026. (not yet rated, free option not confirmed, released 2026-10-23 ([launch post](https://x.com/Kimi_Moonshot/status/2113680701770068067)))
 - #7 [Gemini 4 Carbon](https://deepmind.google/): best for cybersecurity defense and long-horizon tasks (limited early access). Google's latest frontier Gemini model, announced Oct 28, 2026. Rolling out first to cyber defenders, with wider access coming later. (not yet rated, free option not confirmed, released 2026-10-28 ([launch post](https://x.com/Google/status/2115489522603466766)))
+- #8 [Hy4](https://hy.tencent.ai/research/hy4?langVersion=en): best for low-cost agentic work with vision: frontend and game coding, finance research and office documents. Tencent's Hunyuan model with vision and computer use for the first time, released Nov 4, 2026. (not yet rated, primarily paid, released 2026-11-04 ([launch post](https://x.com/TencentHunyuan/status/2117870250838630539)))
 
 ## Free & Open Source
 Local models and open-source AI tools. Full ranking: https://aitooldirectory-beta.vercel.app/category/opensource.html
