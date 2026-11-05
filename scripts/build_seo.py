@@ -119,8 +119,12 @@ L = [f"# AI Tool Rank", "", f"> A directory that recommends AI tools by use case
      f"- [Newsletter {n}]({BASE}/{p}): {t.split(' | ')[0]}" for p, t, _d, n, _i in NL_ISSUES] + [""]
 # Newest verified launches first, so AI answer engines can cite "what's new" without parsing every category.
 L += ["## Latest releases", f"The newest verified launches, newest first. Full list: {BASE}/new.html", ""]
-L += [f"- {t['released']}: [{t['name']}]({BASE}/tool.html?id={t['id']}) ({cats[t['category']]['name']}). {t['blurb']} Source: {t['source']}"
-      for t in new[:8] if t.get("released") and t.get("source")] + [""]
+# Later open-weights drops for already-listed models count as their own dated event.
+_ev = [(t["released"], t, f"{t['blurb']} Source: {t['source']}") for t in new if t.get("released") and t.get("source")]
+_ev += [(t["weightsReleased"], t, f"Open weights released {t['weightsReleased']}. Source: {t['weightsSource']}")
+        for t in d["tools"] if t.get("weightsReleased") and t.get("weightsSource")]
+_ev.sort(key=lambda e: e[0], reverse=True)
+L += [f"- {dt}: [{t['name']}]({BASE}/tool.html?id={t['id']}) ({cats[t['category']]['name']}). {txt}" for dt, t, txt in _ev[:8]] + [""]
 for c in cats.values():
     L += [f"## {c['name']}", f"{c['intro']} Full ranking: {BASE}/category/{c['id']}.html", ""]
     for t in by_cat[c["id"]]:

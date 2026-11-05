@@ -1,6 +1,6 @@
 # AI Tool Rank
 
-> A directory that recommends AI tools by use case, with editorial ratings, verified new releases and verified deals. Last updated 2026-11-04.
+> A directory that recommends AI tools by use case, with editorial ratings, verified new releases and verified deals. Last updated 2026-11-05.
 
 Ratings are editorial opinions, not benchmarks. Pricing changes often; the directory does not list prices it hasn't confirmed, so check each official site. New releases are only added after checking the maker's own launch post, which is linked as the source.
 
@@ -16,13 +16,13 @@ Ratings are editorial opinions, not benchmarks. Pricing changes often; the direc
 The newest verified launches, newest first. Full list: https://aitooldirectory-beta.vercel.app/new.html
 
 - 2026-11-04: [Hy4](https://aitooldirectory-beta.vercel.app/tool.html?id=hy4) (Chatbots & Assistants). Tencent's Hunyuan model with vision and computer use for the first time, released Nov 4, 2026. Source: https://x.com/TencentHunyuan/status/2117870250838630539
+- 2026-11-04: [Ripple-65B Preview](https://aitooldirectory-beta.vercel.app/tool.html?id=ripple65b) (Coding & Vibe Coding). Ricursive Intelligence's 65B dense open-weight coding model, released Nov 4, 2026. Source: https://x.com/RicursiveAI/status/2118046765857546733
+- 2026-11-04: [TwIL-8B](https://aitooldirectory-beta.vercel.app/tool.html?id=twil8b) (Free & Open Source). webAI's 8.8B open-weight reasoning model for local hardware, released Nov 4, 2026. Source: https://x.com/thewebAI/status/2118054125737070659
+- 2026-11-04: [Kimi K3.1 Pro](https://aitooldirectory-beta.vercel.app/tool.html?id=kimik31pro) (Chatbots & Assistants). Open weights released 2026-11-04. Source: https://x.com/Kimi_Moonshot/status/2118010528123773297
 - 2026-11-03: [P-H3-Image](https://aitooldirectory-beta.vercel.app/tool.html?id=ph3image) (Images). Pruna AI's open image generation and editing model built from MiniMax-H3, released Nov 3, 2026. Source: https://x.com/PrunaAI/status/2117663564487926043
 - 2026-11-02: [Hydrogen-1.0](https://aitooldirectory-beta.vercel.app/tool.html?id=hydrogen10) (Research). Deep Principle's first general-purpose model for scientific discovery, released with open weights Nov 2, 2026. Source: https://x.com/DeepPrinciple/status/2117249008972550447
 - 2026-11-02: [LongCat-2.5](https://aitooldirectory-beta.vercel.app/tool.html?id=longcat25) (AI Agents). Meituan's natively multimodal agent model with 1.6T total and about 48B active parameters, released Nov 2, 2026. Source: https://x.com/Meituan_LongCat/status/2117264311714537633
 - 2026-10-30: [Aura Autopilot](https://aitooldirectory-beta.vercel.app/tool.html?id=auraautopilot) (Game Dev). Open-source agent from Ramen, the team behind Aura, that plays your game in the editor and reports bugs. Open-sourced Oct 30, 2026. Source: https://x.com/Aura_Assistant/status/2116191580063404100
-- 2026-10-29: [Mistral Large 4](https://aitooldirectory-beta.vercel.app/tool.html?id=mistrallarge4) (Free & Open Source). Mistral's 1T-parameter multimodal model (nicknamed Le Chonk), with open weights released Oct 29, 2026. Source: https://x.com/MistralAI/status/2115811242556137820
-- 2026-10-29: [Pika H3 Flex](https://aitooldirectory-beta.vercel.app/tool.html?id=pikah3flex) (Video). Pika's open-weight video model with soundtrack, exportable audio stems and up to 4K output, released Oct 29, 2026. Source: https://x.com/pika_labs/status/2115860471215788262
-- 2026-10-28: [Gemini 4 Carbon](https://aitooldirectory-beta.vercel.app/tool.html?id=gemini4carbon) (Chatbots & Assistants). Google's latest frontier Gemini model, announced Oct 28, 2026. Rolling out first to cyber defenders, with wider access coming later. Source: https://x.com/Google/status/2115489522603466766
 
 ## Video
 Text-to-video, AI editing and auto-captions. Full ranking: https://aitooldirectory-beta.vercel.app/category/video.html
@@ -58,6 +58,7 @@ AI code editors, app builders and coding agents. Full ranking: https://aitooldir
 - #5 [Lovable](https://lovable.dev): best for vibe-coding full web apps. Prompt-to-app builder for web apps. (rated 8.0/10, free option offered)
 - #6 [v0](https://v0.dev): best for React/UI generation. Vercel's generative UI and app builder. (rated 8.0/10, free option offered)
 - #7 [Bolt.new](https://bolt.new): best for in-browser full-stack prototypes. StackBlitz's AI app builder in the browser. (rated 7.5/10, free option offered)
+- #7 [Ripple-65B Preview](https://www.ricursive.com/ripple): best for agentic coding with an open model you can run on a single high-end workstation. Ricursive Intelligence's 65B dense open-weight coding model, released Nov 4, 2026. (not yet rated, free option offered, released 2026-11-04 ([launch post](https://x.com/RicursiveAI/status/2118046765857546733)))
 
 ## AI Agents
 Agent builders, browser agents and automation. Full ranking: https://aitooldirectory-beta.vercel.app/category/agents.html
@@ -177,3 +178,4 @@ Local models and open-source AI tools. Full ranking: https://aitooldirectory-bet
 - #6 [Ling-3.0-flash-Sante](https://huggingface.co/inclusionAI/Ling-3.0-flash-Sante): best for open-source healthcare research and medical reasoning. Ant Ling's open-source healthcare model. Weights released Oct 22, 2026. (not yet rated, free option offered, released 2026-10-22 ([launch post](https://x.com/AntLingAGI/status/2113293431435149349)))
 - #7 [Nativ](https://runnativ.ai): best for running open AI models privately on an Apple Silicon Mac. Open-source Mac app from Neywa Labs for running open language, vision, audio and code models locally and offline. Neywa Labs came out of stealth Oct 27, 2026. (not yet rated, free option offered, released 2026-10-27 ([launch post](https://x.com/Prince_Canuma/status/2115128700379566155)))
 - #8 [Mistral Large 4](https://mistral.ai/news/mistral-large-4-oss/): best for self-hosted agentic coding and cyber defense on open weights. Mistral's 1T-parameter multimodal model (nicknamed Le Chonk), with open weights released Oct 29, 2026. (not yet rated, free option not confirmed, released 2026-10-29 ([launch post](https://x.com/MistralAI/status/2115811242556137820)))
+- #8 [TwIL-8B](https://huggingface.co/webAI-Official/TwIL-8B): best for math, code and reasoning on a laptop or small desktop. webAI's 8.8B open-weight reasoning model for local hardware, released Nov 4, 2026. (not yet rated, free option offered, released 2026-11-04 ([launch post](https://x.com/thewebAI/status/2118054125737070659)))

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "note": "Ratings are editorial. New Releases are verified against the maker's own X post (linked as source); new entries stay unrated until reviewed.",
  "categories": [
   {
@@ -1870,13 +1870,14 @@
    "url": "https://www.kimi.com/",
    "bestFor": "Long-context reasoning and full-project coding",
    "freeTier": null,
-   "pricing": "See site for current pricing",
+   "pricing": "Open weights on Hugging Face (released Nov 4, 2026); hosted API via Moonshot and partners, see site for current pricing",
    "blurb": "Moonshot AI's flagship open-weight model with a 1M-token context. Launched Oct 23, 2026.",
-   "why": "Moonshot AI describes K3.1 Pro as its most capable 3T-class open-weight model: 1M-token context, 2.8T total / 104B active parameters (mixture of experts), multimodal, with a focus on full-project coding and 3D modeling in Blender and CAD.",
+   "why": "Moonshot AI describes K3.1 Pro as its most capable 3T-class open-weight model: 1M-token context, 2.8T total / 104B active parameters (mixture of experts), multimodal, with a focus on full-project coding and 3D modeling in Blender and CAD. Moonshot released the model weights on Nov 4, 2026 (x.com/Kimi_Moonshot/status/2118010528123773297), and AMD, Alibaba Cloud and Verda announced day-0 hosting or support. Running it locally takes datacenter-class hardware (AMD cites 8x MI355X).",
    "features": [
     "1M-token context window",
     "Multimodal input",
-    "Coding across Unreal, Unity and Godot projects (per Moonshot)"
+    "Coding across Unreal, Unity and Godot projects (per Moonshot)",
+    "Open weights released Nov 4, 2026"
    ],
    "skip": "Anyone who just needs quick everyday chat answers",
    "rating": null,
@@ -1884,7 +1885,9 @@
    "released": "2026-10-23",
    "source": "https://x.com/Kimi_Moonshot/status/2113680701770068067",
    "worthRanking": true,
-   "rank": 6
+   "rank": 6,
+   "weightsReleased": "2026-11-04",
+   "weightsSource": "https://x.com/Kimi_Moonshot/status/2118010528123773297"
   },
   {
    "id": "lingsante",
@@ -2167,6 +2170,54 @@
    "released": "2026-11-03",
    "source": "https://x.com/PrunaAI/status/2117663564487926043",
    "worthRanking": true,
+   "rank": 8
+  },
+  {
+   "id": "ripple65b",
+   "name": "Ripple-65B Preview",
+   "category": "coding",
+   "url": "https://www.ricursive.com/ripple",
+   "bestFor": "Agentic coding with an open model you can run on a single high-end workstation",
+   "freeTier": true,
+   "pricing": "Open weights on Hugging Face (Apache 2.0); hosted on Together AI, GMI Cloud and OpenRouter, see those sites for pricing",
+   "blurb": "Ricursive Intelligence's 65B dense open-weight coding model, released Nov 4, 2026.",
+   "why": "Ricursive Intelligence released Ripple-65B Preview on Nov 4, 2026, a 65B dense model it pretrained from scratch. Ricursive says it sets a new high for U.S. open-weight models on agentic coding, beating much larger models such as Nemotron 3 Ultra-550B, and reports 80.5% on Terminal-Bench 2.1 using the Terminus 2 harness. Ricursive says its full R&D cost was $32M, and that the NVFP4 checkpoint averages about 40 tokens per second on an NVIDIA DGX Spark.",
+   "features": [
+    "Open weights on Hugging Face under Apache 2.0",
+    "65B dense model, pretrained from scratch",
+    "NVFP4 checkpoint for DGX Spark",
+    "Available on Together AI, GMI Cloud and OpenRouter"
+   ],
+   "skip": "Anyone without serious local hardware who just wants a coding assistant in their editor; dense models are slow when offloaded",
+   "rating": null,
+   "isNew": true,
+   "released": "2026-11-04",
+   "source": "https://x.com/RicursiveAI/status/2118046765857546733",
+   "worthRanking": true,
+   "rank": 7
+  },
+  {
+   "id": "twil8b",
+   "name": "TwIL-8B",
+   "category": "opensource",
+   "url": "https://huggingface.co/webAI-Official/TwIL-8B",
+   "bestFor": "Math, code and reasoning on a laptop or small desktop",
+   "freeTier": true,
+   "pricing": "Free download on Hugging Face under the webAI Non-Commercial License 1.0 (not for commercial use)",
+   "blurb": "webAI's 8.8B open-weight reasoning model for local hardware, released Nov 4, 2026.",
+   "why": "webAI released TwIL-8B on Nov 4, 2026, an 8.8B reasoning model post-trained from IBM's Granite 4.2 8B. webAI reports 81.6 on LiveCodeBench and 98.2 on MATH-500, ahead of Qwen3.5-9B on both, and says it runs on hardware you already own. It ships in balanced and verbose variants. The license is non-commercial, so it suits personal and research use.",
+   "features": [
+    "Open weights on Hugging Face",
+    "Balanced and verbose variants",
+    "GGUF builds for local apps",
+    "Built on IBM Granite 4.2 8B"
+   ],
+   "skip": "Businesses that need a model they can use commercially",
+   "rating": null,
+   "isNew": true,
+   "released": "2026-11-04",
+   "source": "https://x.com/thewebAI/status/2118054125737070659",
+   "worthRanking": false,
    "rank": 8
   }
  ],
