@@ -10,6 +10,7 @@ Ratings are editorial opinions, not benchmarks. Pricing changes often; the direc
 - [Compare](https://aitooldirectory-beta.vercel.app/compare.html): side-by-side tool comparison
 - [Methodology](https://aitooldirectory-beta.vercel.app/methodology.html): how tools are rated
 - [Newsletter archive](https://aitooldirectory-beta.vercel.app/newsletter/index.html): past issues of the weekly newsletter
+- [Newsletter Nov 5, 2026](https://aitooldirectory-beta.vercel.app/newsletter/2026-11-05.html): Mistral and Moonshot open their giant models, an open coding model for one workstation, and a free AI playtester
 - [Newsletter Oct 29, 2026](https://aitooldirectory-beta.vercel.app/newsletter/2026-10-29.html): Gemini 4 Carbon, a free local-AI Mac app, and chat-based video editing
 
 ## Latest releases
